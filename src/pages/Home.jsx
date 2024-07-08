@@ -10,7 +10,7 @@ const Home = () => {
           <div className='headerContainer'>
              <h1>Food Website</h1>
              <p>Best Food in India</p>
-             <Link to="/menu">
+             <Link to="/Restaurant/menu">
                 <button >
                   Order NOW
                 </button>

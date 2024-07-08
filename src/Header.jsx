@@ -24,16 +24,16 @@ function Header() {
             <Divider/>
             <ul className='mobile-navigation'>
                 <li>
-                    <NavLink activeClassName="active" to={'/'}>Home</NavLink>
+                    <NavLink activeClassName="active" to={'/Restaurant'}>Home</NavLink>
                 </li>
                 <li>
-                    <NavLink activeClassName="active" to={'/menu'}>Menu</NavLink>
+                    <NavLink activeClassName="active" to={'/Restaurant/menu'}>Menu</NavLink>
                 </li>
                 <li>
-                    <NavLink activeClassName="active" to={'/about'}>About</NavLink>
+                    <NavLink activeClassName="active" to={'/Restaurant/about'}>About</NavLink>
                 </li>
                 <li>
-                    <NavLink activeClassName="active" to={'/contact'}>Contact</NavLink>
+                    <NavLink activeClassName="active" to={'/Restaurant/contact'}>Contact</NavLink>
                 </li>
             </ul>
         </Box>
