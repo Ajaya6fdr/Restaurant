@@ -11,10 +11,10 @@ function App() {
     <>
       <BrowserRouter>
          <Routes>
-            <Route path='Restaurant/' element={<Home/>}/>
-            <Route path='/about' element={<About/>}/>
-            <Route path='/contact' element={<Contact/>}/>
-            <Route path='/menu' element={<Menu/>}/>
+            <Route path='https://ajaya6fdr.github.io/Restaurant/' element={<Home/>}/>
+            <Route path='https://ajaya6fdr.github.io/Restaurant/about' element={<About/>}/>
+            <Route path='https://ajaya6fdr.github.io/Restaurant/contact' element={<Contact/>}/>
+            <Route path='https://ajaya6fdr.github.io/Restaurant/menu' element={<Menu/>}/>
             <Route path='*' element={<PageNotFound/>}/>
          </Routes>
       </BrowserRouter>
