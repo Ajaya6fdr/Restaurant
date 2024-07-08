@@ -9,12 +9,12 @@ function App() {
  
   return (
     <>
-      <BrowserRouter>
+      <BrowserRouter basename="/Restauranr">
          <Routes>
-            <Route path='/Restaurant' element={<Home/>}/>
-            <Route path='/Restaurant/about' element={<About/>}/>
-            <Route path='/Restaurant/contact' element={<Contact/>}/>
-            <Route path='/Restaurant/menu' element={<Menu/>}/>
+            <Route path='/' element={<Home/>}/>
+            <Route path='/about' element={<About/>}/>
+            <Route path='/contact' element={<Contact/>}/>
+            <Route path='/menu' element={<Menu/>}/>
             <Route path='*' element={<PageNotFound/>}/>
          </Routes>
       </BrowserRouter>
